@@ -100,3 +100,7 @@ button {
 *:focus {
   outline: none;
 }
+
+.js-greetings {
+  text-transform: capitalize;
+}
