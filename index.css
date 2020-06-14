@@ -1,0 +1,101 @@
+html {
+  widows: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #34495e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  widows: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.btn {
+  cursor: pointer;
+}
+.form,
+.greetings {
+  display: none;
+  color: white;
+  font-size: 30px;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.js-title {
+  margin-bottom: -20px;
+}
+
+.js-weather {
+  color: white;
+}
+
+li {
+  color: white;
+  text-transform: capitalize;
+  margin-left: -40px;
+  margin-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px 0px;
+}
+
+input[type="text"] {
+  border: none;
+  background: none;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+*:focus {
+  outline: none;
+}
